@@ -20,7 +20,7 @@ use Flextype\Component\Event\Event;
 Event::addListener('onShortcodesInitialized', function () {
 
     // Shortcode: [text-highlight]Text to highlight[/text-highlight]
-    Content::shortcode()->addHandler('text-highlight', function(ShortcodeInterface $s) {
+    Entries::shortcode()->addHandler('text-highlight', function(ShortcodeInterface $s) {
         return textHighlight($s->getContent(),
                        ((null !== $s->getParameter('class')) ? $s->getParameter('class') : '' ),
                        ((null !== $s->getParameter('background')) ? $s->getParameter('background') : '#ddff99' ),
