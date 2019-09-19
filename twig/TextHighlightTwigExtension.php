@@ -35,7 +35,7 @@ class TextHighlightTwigExtension extends \Twig_Extension
     public function getFunctions()
     {
         return [
-            new \Twig_SimpleFunction('text-highlight', [$this, 'textHighlight'], ['is_safe' => ['html']])
+            new \Twig_SimpleFunction('textHighlight', [$this, 'textHighlight'], ['is_safe' => ['html']])
         ];
     }
 

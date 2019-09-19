@@ -1,0 +1,11 @@
+name: Text Highlight
+version: 1.3.0
+description: Text Highlight plugin allows you to highlight the most important parts
+  of your content.
+author:
+  name: Sergey Romanenko
+  email: awilum@yandex.ru
+  url: http://flextype.org
+homepage: https://github.com/flextype-plugins/text-highlight
+bugs: https://github.com/flextype-plugins/text-highlight/issues
+license: MIT
