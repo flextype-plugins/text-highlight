@@ -1,5 +1,6 @@
 name: Text Highlight
-version: 1.3.0
+version: 1.4.0
+icon: fas fa-paint-brush
 description: Text Highlight plugin allows you to highlight the most important parts
   of your content.
 author:
